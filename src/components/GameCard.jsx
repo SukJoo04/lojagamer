@@ -1,6 +1,6 @@
 
 
-const GameCard = (titulo,preco,imagem) => {
+const GameCard = ({titulo,preco,imagem}) => {
   return (
     <div className="bg-black rounded-2x1 overflow-hidden transition-all duration-300 hover:-translate-y-2 hover: border-4 hover: border-[#95ff00]">
       
